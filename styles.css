@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    height: 100vh;
+}
+
+.container {
+    max-width: 800px;
+    margin: 5vh auto;
+    padding: 5vh 2vw;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.box.blue, .blueboxjr {
+    background-color: blue;
+    color: white;
+}
+
+.box.red, .redboxjr {
+    background-color: red;
+}
+
+.nested .inner {
+    padding: 2vw;
+}
+
+.content > .box {
+    margin: 1vh 0;
+}
+
+.inner p {
+    margin-top: 1vh;
+}
+
+header {
+    padding: 2vh 1vw;
+    background-color: #ddd;
+    border-radius: 0.5vh;
+}
+
+footer {
+    padding: 2vh 1vw;
+    background-color: #ddd;
+    border-radius: 0.5vh;
+    margin-top: 3vh;
+}
+
+.btn {
+    padding: 1vh 2vw;
+    border: none;
+    background-color: #555;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+footer:hover .btn {
+    background-color: purple;
+}
